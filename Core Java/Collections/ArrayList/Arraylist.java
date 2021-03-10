@@ -70,6 +70,10 @@ public class helloworld {
 		System.out.println(arr.isEmpty());
 		
 		
+		//		contains method is used to check if a value or an element is contained in it or not
+		System.out.println("arraylist contains albanero:  "+arr.contains("Albanero"));
+
+		
 //		to sort the elements of arraylist like that of in vector 
 //		we call collection framework and then provide value of our 
 //		arraylist
