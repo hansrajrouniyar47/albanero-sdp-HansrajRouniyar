@@ -39,6 +39,25 @@ public class CourseServiceimp implements CourseService {
 		
 		return c;
 	}
+
+	@Override
+	public course addCourse(course course) {
+		list.add(course);
+		return course;
+	}
+
+	@Override
+	public course editCourse(course course, Long courseId) {
+		course c=null;
+		for(course cor:list) {
+			if(cor.getId()==courseId) {
+				cor=course;
+				c=cor;
+			}
+		}
+		return c;
+		
+	}
 	
 	
 
